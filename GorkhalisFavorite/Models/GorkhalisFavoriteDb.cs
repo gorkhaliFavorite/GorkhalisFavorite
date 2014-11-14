@@ -5,7 +5,7 @@ namespace GorkhalisFavorite.Models
 {
     public class GorkhalisFavoriteDb : DbContext
     {
-        public GorkhalisFavoriteDb() : base("name=DefaultConnection")
+        public GorkhalisFavoriteDb() : base("name=ApplicationServices")
         {
             
         }
